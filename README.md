@@ -23,5 +23,7 @@ You can verify if exam monitor is working by running exam monitor, logging in an
 
 ## Thanks
 
-Will be added later.
+These repos were useful to see the prerequisites for running exam monitor on Linux:
+- https://github.com/Sigu0428/linux-helper-SDU-Exam-Monitor
+- https://github.com/frederikstroem/SDU-Exam-Monitor-Linux-Install-Helper
 
