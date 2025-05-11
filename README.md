@@ -25,8 +25,9 @@ You should now see the exam monitor program pop up and be able to log in. In som
 
 You can verify if Exam Monitor is working by running Exam Monitor, logging in and then entering "DEMO" in the "Course" field. 
 Let it run for a while to collect data, maybe copy-paste a few things. Then, click on Exam Monitor at the bottom of the screen and quit the exam. 
+
 Next, open up the [Exam Monitor website](https://sdu.exammonitor.dk/).
-Under the "FAQ", find the "Where is the data, and can I get access to it?" item and unfold it. Click on the "login" button that is revealed.
+Under the FAQ section, find the "Where is the data, and can I get access to it?" item and unfold it. Click on the "login" button that is revealed.
 After logging in, you should see a list of reports from exams.
 Press "report" on the newest one and look at the data it has collected. 
 If it looks good, then you know it's working as intended.
