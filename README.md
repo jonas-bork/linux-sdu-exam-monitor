@@ -34,14 +34,14 @@ You can verify if Exam Monitor is working by running Exam Monitor, logging in an
 Let it run for a while to collect data, maybe copy-paste a few things. Then, click on Exam Monitor at the bottom of the screen and quit the exam. 
 
 Next, open up the [Exam Monitor website](https://sdu.exammonitor.dk/).
-Under the FAQ section, find the "Where is the data, and can I get access to it?" item and unfold it. Click on the "login" button that is revealed.
+Scroll down the page and click on the "Login" button.
 After logging in, you should see a list of reports from exams.
 Press "report" on the newest one and look at the data it has collected. 
-If it looks good, then you know it's working as intended.
+If the data in the report is correct, you know it's working as intended. Especially verify that screenshots work (and that they are not just black).
 
 ## Thanks
 
-These repos were useful to see the prerequisites for running exam monitor on Linux, as well as inspiration for the README:
+These repos were useful to see the prerequisites for running Exam Monitor on Linux, as well as inspiration for the README:
 
 - https://github.com/Sigu0428/linux-helper-SDU-Exam-Monitor
 - https://github.com/frederikstroem/SDU-Exam-Monitor-Linux-Install-Helper
