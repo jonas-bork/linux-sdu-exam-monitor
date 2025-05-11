@@ -7,7 +7,7 @@
 ### Prerequisites
 
 - You need to have Nix (the package manager) installed.
-- You need to use X11. Wayland does not work.
+- You need to use X11. **Wayland does not work.** On Wayland, it will look like it runs correctly but it can't take screenshots.
 
 ### Run
 
@@ -24,6 +24,6 @@ You can verify if exam monitor is working by running exam monitor, logging in an
 ## Thanks
 
 These repos were useful to see the prerequisites for running exam monitor on Linux:
+
 - https://github.com/Sigu0428/linux-helper-SDU-Exam-Monitor
 - https://github.com/frederikstroem/SDU-Exam-Monitor-Linux-Install-Helper
-
