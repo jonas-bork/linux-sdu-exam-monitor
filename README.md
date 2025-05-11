@@ -1,26 +1,32 @@
 # SDU Exam Monitor on Linux
 
-**Disclaimer:** I'm just a student at University of Southern Denmark (SDU) and **not** affiliated with [Exam Monitor](https://sdu.exammonitor.dk/).
+**Disclaimer:** I'm just a student at the University of Southern Denmark (SDU) and **not** affiliated with [Exam Monitor](https://sdu.exammonitor.dk/).
 
 ## Usage
 
 ### Prerequisites
 
-- You need to have Nix (the package manager) installed.
-- You need to use X11. **Wayland does not work.** On Wayland, it will look like it runs correctly but it can't take screenshots.
+- You need to have [Nix (the package manager)](https://nixos.org/download/) installed.
+- You need to use X11. **Wayland does not work.** On Wayland, it will look like it runs correctly, but it can't take screenshots.
 
 ### Run
 
 1. Clone the repo.
-2. Run `nix run` in the root folder of the repository.
+2. Run `nix run` in the repository's root folder.
 
-You should now see the exam monitor program pop up and be able to login. In some cases exam monitor is not able to open the login portal in the browser. In that case the a url is automatically copied to your clipboard, that can be pasted into the browser manually.
+You should now see the exam monitor program pop up and be able to log in. In some cases, the exam monitor is not able to open the login portal in the browser. In that case, the URL is automatically copied to your clipboard, which can be pasted into the browser manually.
 
-### Verify that exam monitor is working
+### Verify that Exam Monitor is working
 
 You are responsible for verifying that it works. I am not liable if you fail to do so sufficiently.
 
-You can verify if exam monitor is working by running exam monitor, logging in and then entering "DEMO" in the "Course" field. Let it run for a while to collect data, maybe copy paste a few things. Then, click on exam monitor on the bottom of the screen and quit the exam. Next, open up the [Exam Monitor](https://sdu.exammonitor.dk/) website. Scroll down a bit and you should see a "login" button. After logging in you should see a list of reports from exams. Press "report" on the newest one and look at the data it has collected. If it looks good then you know its working as intended.
+You can verify if Exam Monitor is working by running Exam Monitor, logging in and then entering "DEMO" in the "Course" field. 
+Let it run for a while to collect data, maybe copy-paste a few things. Then, click on Exam Monitor at the bottom of the screen and quit the exam. 
+Next, open up the [Exam Monitor website](https://sdu.exammonitor.dk/).
+Under the "FAQ", find the "Where is the data, and can I get access to it?" item and unfold it. Click on the "login" button that it reveals.
+After logging in, you should see a list of reports from exams.
+Press "report" on the newest one and look at the data it has collected. 
+If it looks good, then you know it's working as intended.
 
 ## Thanks
 
