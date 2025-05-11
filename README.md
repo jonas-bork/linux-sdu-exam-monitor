@@ -19,11 +19,11 @@ This is a tool for running Exam Monitor easily on Linux.
 You should now see the exam monitor program pop up and be able to log in. In some cases, the exam monitor is not able to open the login portal in the browser. In that case, the URL is automatically copied to your clipboard, which can be pasted into the browser manually.
 
 > [!IMPORTANT]
-> If you get an error when using `nix run` that says the hash is wrong, then you need to disable checking the hash by going into `settings.nix` and changing `disableHashCheck = false` to `disableHashCheck = true`. This happens when Exam Monitor is updated, and this repository is yet to be updated to support the newest version.
+> If you get an error when using `nix run` that mentions a "hash mismatch", then you need to disable checking the hash by going into `settings.nix` and changing `disableHashCheck = false` to `disableHashCheck = true`. This happens when Exam Monitor is updated, and this repository is yet to be updated to support the newest version.
 >
 > When this happens, please [create an issue](https://github.com/jonas-bork/linux-sdu-exam-monitor/issues) to notify us (if one is not already open).
 >
-> When you disable checking the hash, you need to be aware that Exam Monitor through this repository might no longer work and that you lose the additional security that the hash check provides.
+> When you disable checking the hash, you need to be aware that Exam Monitor through this repository might no longer work (but probably will work fine) and that you lose the additional security that the hash check provides.
 
 ### Verify that Exam Monitor is working
 
