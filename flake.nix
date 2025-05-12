@@ -24,12 +24,12 @@
       {
         packages.default = pkgs.writeShellApplication {
           name = "exam-monitor";
-          runtimeInputs = with pkgs; [
-            jdk8
-          ];
 
           text = ''
             #!/bin/sh
+            export JAVA_HOME=${pkgs.jdk8}
+            export PATH="$JAVA_HOME/bin:$PATH"
+
             ${javaws} ${examMonitorJnlp}
           '';
         };
