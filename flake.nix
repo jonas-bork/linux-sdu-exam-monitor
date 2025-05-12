@@ -10,13 +10,11 @@
       nixpkgs,
       flake-utils,
     }:
-    let
-      settings = import ./settings.nix;
-    in
     flake-utils.lib.eachDefaultSystem (
       system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
+        settings = import ./settings.nix;
 
         examMonitorJnlp = import ./nix/exam-monitor-jnlp.nix pkgs settings;
         javaws = "${pkgs.adoptopenjdk-icedtea-web}/bin/javaws";
