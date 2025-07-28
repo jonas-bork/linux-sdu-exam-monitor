@@ -9,7 +9,7 @@ This is a tool for running Exam Monitor easily on Linux.
 ### Prerequisites
 
 - You need to have [Nix (the package manager)](https://nixos.org/download/) installed.
-- You need to use X11. **Wayland does not work.** On Wayland, it will look like it runs correctly, but it can't take screenshots.
+- You need to use X11. For Wayland, see [Wayland Comments](#wayland-comments).
 
 ### Run
 
@@ -38,6 +38,10 @@ Scroll down the page and click on the "Login" button.
 After logging in, you should see a list of reports from exams.
 Press "report" on the newest one and look at the data it has collected. 
 If the data in the report is correct, you know it's working as intended. Especially verify that screenshots work (and that they are not just black).
+
+## Wayland Comments
+
+In general, **Wayland does not work**, but [some have had success](https://github.com/jonas-bork/linux-sdu-exam-monitor/issues/3) using `xwaylandvideobridge`. On Wayland, when it doesn't work, it will look like it runs correctly, but it can't take screenshots. Thus, when using Wayland, it's very important that you [verify that Exam Monitor is working](#verify-that-exam-monitor-is-working).
 
 ## Thanks
 
